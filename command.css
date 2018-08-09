@@ -1,0 +1,59 @@
+body{
+	background-color:khaki;
+}
+.container{
+	background:lightgrey;
+	border-style: solid;
+	border-radius: 5px;
+	border-color:red;
+	border-width: 2px;
+	width:30em;
+	height:11em;
+	font-family:sans-serif;
+}
+.cross{
+	background-color: red;
+	color:black;
+	font-size: 2em;
+}
+.buttons {
+	height:2em;
+	color:white;
+	border-radius:15px;
+	border-style:dashed;
+	border-color:black;
+	margin-right:5px;
+	font-size:20px;
+}
+.allow{
+	width: 150px;
+	background-color: green;
+}
+.block{
+	width: 100px;
+	background-color:red;
+}
+
+@media screen and (max-width:494px){
+	.container{
+		width:99%;
+	}
+}
+
+@media screen and (max-width:487px){
+	.container{
+		height:12em;
+	}
+}
+
+@media screen and (max-width:283px){
+	.container{
+		height:14em;
+	}
+}
+
+@media screen and (max-width:265px){
+	.container{
+		height:18em;
+	}
+}
